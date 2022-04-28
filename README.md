@@ -12,7 +12,7 @@ The database structure for Passport lacks any referential integrity.  This
 is improper database design because it allows for orphan data in your database.
 
 This library not only implements referential integrity between its own schema
-but allows for dynamic relationships to your authtentication tables at run time
+but allows for dynamic relationships to your authentication tables at run time
 thereby creating referential integrity across the implementation.
 
 
